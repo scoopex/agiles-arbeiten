@@ -3,7 +3,9 @@ Hintergrund
 ===========
 
 Diese Slides haben zum Ziel Einsteigern einen Einblick in die agile Softwareentwicklung zu vermitteln.
-Sie sind bewusst etwas textlastiger als nötig gehalten um die Inhalte auch ohne eine persönliche Präsentation zu transportieren.
+Sie sind bewusst etwas textlastiger als nötig gehalten um die wichtigsten Inhalte auch ohne eine persönliche Präsentation zu transportieren.
+
+Verbessserungs-, Erweiterungsbeiträge nehme ich gerne an, Pull Requests sind sehr willkommen.
 
 
 Entwickeln
