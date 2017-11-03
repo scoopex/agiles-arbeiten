@@ -1,0 +1,132 @@
+\section{Einführung}
+
+\subsection{Der klassische Weg}
+\frame
+{
+  \frametitle{Gründe für Projektunsicherheiten}
+  \begin{itemize}
+    \item{Kunde weiss am Anfang nicht genau was er braucht}
+    \item{Auftragnehmer versteht nicht genau, was der Kunde will}
+    \item{Auftragnehmer unterschätzt / überschätzt Aufwände (Planung)}
+    \item{Nicht alle Anforderungen und Stakeholder sind bekannt}
+    \item{Kunde hat widersprüchliche Anforderungen, z.T. wg. Politik}
+    \item{Politik, Management Risiken}
+    \item{Änderungen in den Prioritäten, Geschäftsprozessen etc. während des Projektes}
+    \item{Projekt in komplexe Projektlandschaft eingebunden}
+    \item{Technische Risiken, z.B. Infrastruktur hält nicht was sie verspricht}
+  \end{itemize}
+}
+
+
+\pgfdeclareimage[width=1.0\textwidth]{entscheidungsspielraum}{../src/images/entscheidungsspielraum}
+\frame{
+   \frametitle{Projektfortschritt und Entscheidungsspielraum}
+       \begin{center}
+         \pgfuseimage{entscheidungsspielraum}
+         \bigskip
+       \end{center}
+}
+
+\frame
+{
+  \frametitle{Klassische Antworten und Situationen}
+  \begin{itemize}
+    \item{Anforderungen
+      \begin{itemize}
+      \item{Ziele: genaues Verständnis der Anforderungen, Anforderungstabilität, (Verfolgbarkeit) }
+      \item{Am Anfang des Projekts möglichst vollständig abstimmen \\(Bei Risiken in Stufen vorgehen)}
+      \item{Möglichst genaue Spezifikation/Pflichtenheft erstellen}
+      \item{Änderungen nur über ein striktes Change Request Verfahren}
+      \end{itemize}
+    }
+    \item{Architektur
+      \begin{itemize}
+      \item{Ziele: Architektur = stabiles Gerüst der Software}
+      \item{In früher Projektphase entwickeln (mindestens Grobarchitektur)}
+      \item{Anforderungen späterer Phasen berücksichtigen}
+      \end{itemize}
+    }
+    \item{Dokumente
+      \begin{itemize}
+      \item{Ziele: Klarheit, Review-Fähigkeit bzw. Abstimmbarkeit, Stabilität und Reduktion von Kommunikation}
+      \item{Alles wird dokumentiert (Prinzip der Schriftlichkeit), wichtig sind insbesondere Spezifikationdokumente und Architekturdokumente}
+      \item{Für Offshore-Partner, Wartungsteam, das Team}
+      \end{itemize}
+    }
+  \end{itemize}
+}
+
+
+ \frame
+ {
+   \frametitle{Klassische Antworten und Situationen}
+   \begin{itemize}
+   \item{Risikomanagement
+    \begin{itemize}
+     \item{Projekte werden in der Regel in (wenigen) Stufen (3-12 Monate) durchgeführt }
+     \item{Aktiver (häufig unsystematischer) Umgang mit Risiken \\
+        (Einzelmaßnahmen wie technischer Durchstich, Risikoliste, \dots)}
+     \item{Risiken häufig nur pauschal berücksichtigt}
+    \end{itemize}
+    }
+   \item{Pläne
+    \begin{itemize}
+     \item{Am Anfang des Projektes grobe Planung (auch zur Preisfindung), }
+     \item{Feinplanung bei Bedarf}
+     \item{Wenn‘s knapp wird: Weglassen/Verschieben unwichtiger Funktionen oder Qualitätseinbußen (z.B. Testaufwände kürzen)}
+     \item{Ziele nach Priorität : (1) Einhaltung des Termins, (1) Einhaltung des Budgets, (3) Qualität, (4) Vollständige Funktionalität }
+    \end{itemize}
+    }
+   \item{Verträge
+    \begin{itemize}
+     \item{Festpreisprojekte zur Kostenkontrolle}
+     \item{Preis im Verhältnis zur Funktionalität schwer einschätzbar}
+    \end{itemize}
+    }
+   \end{itemize}
+ }
+ 
+ \frame
+ {
+   \frametitle{Klassische Antworten und Situationen}
+   \begin{itemize}
+ 
+   \item{Kunde
+    \begin{itemize}
+     \item{integriert in Phasen  abhängig von seiner eigenen Verfügbarkeit}
+     \item{ist über Anforderungsdefinition, Dokument-Reviews und System- und Abnahmetest einbezogen}
+     \item{Entwicklung: selten gemischte Teams bedingt durch Projektphasen}
+     \item{Kommunikation zum Teil reglementiert durch Projektleiter („Ein-Ansprechpartner“-Modell) oder über Dokumente}
+     \item{Ziele: Langfristige Kundenbindung, Vertrauen, verbindliche Absprachen}
+    \end{itemize}
+   }
+   \item{Prozesse
+    \begin{itemize}
+     \item{Aktivitäten / Workflows im Detail festgelegt}
+     \item{Viele Rollen}
+     \item{Viele, genau festgelegte Artefakte (Doku, Code und Co.)}
+     \item{Ziele: Planbarkeit, Wiederholbarkeit, Verbesserbarkeit (CMM)}
+    \end{itemize}
+   }
+   \end{itemize}
+ }
+
+ \frame
+ {
+   \frametitle{Auswirkungen}
+   \begin{itemize}
+      \item{Standard Projekteskalation: Grün \dots Gelb \dots Dunkelrot \dots Gelb} 
+      \item{Projektplan und Realität driftet stark auseinander}
+      \item{Change Requests machen große Schmerzen (Projektverzug, Kosten)}
+      \item{Große Teile der Fachlichkeit ergeben sich während des Projekts}
+      \item{Kunde bekommt eigentlich nicht, was er will, sondern vielleicht noch nicht mal das was im Vertrag steht}
+      \item{Definierte Prozesse sind oft schwer durchzuhalten}
+      \item{Projektziel muß mit massivem Aufwand erkauft werden}
+      \item{Projektziel muß mit massiver Scopereduktion erkauft werden}
+      \item{Chef-Architekten-Denkmäler}
+      \item{weniger Spaß für Projektmitarbeiter}
+   \end{itemize}
+ }
+
+
+

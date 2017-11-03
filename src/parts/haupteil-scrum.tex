@@ -1,0 +1,280 @@
+
+
+\section{Scrum}
+
+\subsection{Grundsätzliches}
+
+\pgfdeclareimage[width=1.0\textwidth]{scrum}{../src/images/scrum-bild}
+\frame{
+  \frametitle{Begriff}
+      \begin{center}
+         \pgfuseimage{scrum}
+       \end{center}
+  Scrum (engl. das Gedränge) ist ein Vorgehensmodell mit
+  Meetings, Artefakten, Rollen, Werten und Grundüberzeugungen,
+  das beim Entwickeln von Produkten im Rahmen agiler
+  Softwareentwicklung hilfreich ist.
+}
+
+\frame
+{
+  \frametitle{Wikipedia}
+  \begin{itemize}
+     \item{OOPSLA 1995, erster Konferenzbeitrag}
+     \item{Begriff durch Jeff Sutherland, Ken Schwaber geprägt}
+     \item{Umsetzung von Lean Development für das Projektmanagement}
+     \item{Kernprinzipien
+      \begin{itemize}
+           \item{Transparenz: Fortschritt und Hindernisse eine Projektes werden täglich und für sichtbar festgehalten}
+           \item{Überprüfung: Regelmäßige Lieferung}
+           \item{Anpassung: Anforderungen und Implementierungen entwickeln sich. Neubewertung und Anpassung nach jeder Lieferung}
+      \end{itemize}
+     }
+  \end{itemize}
+}
+
+
+\subsection{Im Detail}
+
+\pgfdeclareimage[width=\textwidth]{scrum}{../src/images/scrum}
+\frame{
+  \frametitle{Der Scrum Prozess}
+       \begin{center}
+         \pgfuseimage{scrum}
+         \bigskip
+       \end{center}
+}
+
+\pgfdeclareimage[width=0.68\textwidth]{planungselemente}{../src/images/planungselemente}
+\frame{
+  \frametitle{Die Planungseinheiten}
+       \begin{center}
+         \pgfuseimage{planungselemente}
+         \bigskip
+       \end{center}
+}
+
+\pgfdeclareimage[width=\textwidth]{scrum}{../src/images/scrum}
+\frame{
+  \frametitle{Der Product Owner}
+       \begin{center}
+         \pgfuseimage{scrum}
+         \bigskip
+       \end{center}
+}
+
+\frame
+{
+  \frametitle{Der Product Owner}
+  \begin{itemize}
+    \item{Verwaltet das Produktbacklog}
+    \item{Bringt Stories in einen bearbeitbaren Status\\(Erfüllung der ,,Definition of Ready'')}
+    \item{Definiert Produkt-Features}
+    \item{Priorisiert Features abhängig vom Marktwert}
+    \item{Akzeptiert oder weist Arbeitsergebnisse zurück}
+    \item{Bestimmt Auslieferungsdatum und Inhalt}
+    \item{Ist verantwortlich für das finanzielle Ergebnis des Projekts (ROI)}
+    \item{Passt Features und Prioritäten nach Bedarf für jeden Sprint an}
+  \end{itemize}
+}
+
+
+\frame{
+  \frametitle{Das Team}
+       \begin{center}
+         \pgfuseimage{scrum}
+         \bigskip
+       \end{center}
+}
+
+\frame
+{
+  \frametitle{Das Team}
+  \begin{itemize}
+      \item{Typischerweise 5-9 Personen}
+      \item{Funktionsübergreifend / Interdisziplinär \\
+        (QS, Programmierer, UI-Designer, System-Engineer, etc.)}
+      \item{keine Titel (aber manchmal nicht vermeidbar)}
+      \item{Mitglieder sollten Vollzeitmitglieder sein - wenige Ausnahmen \\(z.B. sehr selten benötige Spezialisten)}
+      \item{Mitgliedschaft kann sich nur zwischen Sprints verändern}
+      \item{Teams organisieren sich selbst}
+      \item{Team erfüllt die ,,Definition of Done''}
+  \end{itemize}
+}
+
+\pgfdeclareimage[width=0.7\textwidth]{deck}{../src/images/deck}
+\frame{
+   \frametitle{Scrum Planning Poker}
+       \begin{center}
+          \pgfuseimage{deck}
+       \end{center}
+       Aufgaben werden durch das Team in einem abstraktem Storypoint-Komplexitätsmaß unabhängig von der Qualifizierung der Teammitglieder geschätzt.
+}
+
+\pgfdeclareimage[width=0.3\textwidth]{play}{../src/images/play}
+\frame{
+   \frametitle{Scrum Planning Poker}
+       \begin{center}
+          \pgfuseimage{play}
+       \end{center}
+  \begin{itemize}
+      \item{Gemeinsame Einschätzung durch Pokern und Austausch von Argumenten}
+      \item{Summe der Komplexitäten = Umfang des Sprints}
+      \item{Betrachtung der Leistung des letzten Sprints und Commitment des Teams für bevorstehenden Sprint}
+      \item{PO kann mit frühzeitigem Schätzen und der Betrachtung der Storypoints z.B. 1-3 Sprints vorausplanen}
+  \end{itemize}
+}
+
+\frame{
+  \frametitle{Das Daily Standup}
+       \begin{center}
+         \pgfuseimage{scrum}
+         \bigskip
+       \end{center}
+}
+
+\pgfdeclareimage[width=0.45\textwidth]{standup}{../src/images/standup2}
+\frame{
+   \frametitle{Daily Standup}
+       \begin{center}
+         \pgfuseimage{standup}
+       \end{center}
+   \small
+  \begin{itemize}
+    \item{Ziel: Die Zusammenarbeit koordinieren und den Arbeitsfluss opimieren\\
+      (Reviews, Peering, Hindernisse beseitigen, \dots)}
+    \item{Unbedingt vermeiden: Technische Diskussionen, reines Statusreporting, Unpünklichkeit bzw. Nichtanwesenheit}
+    \item{Was gehört ins Daily?
+     \begin{itemize}
+       \item{Gestern habe ich \dots}
+       \item{Heute will ich \dots}
+       \item{Mich behindert \dots ich komme nicht weiter an \dots weil \dots}
+       \item{Ich könnte Unterstützung bei \dots gebrauchen}
+     \end{itemize}
+    }
+  \end{itemize}
+}
+
+\pgfdeclareimage[width=\textwidth]{scrumboard}{../src/images/DomaeneIAgileBoard}
+\frame{
+   \frametitle{Scrum Board I}
+       \begin{center}
+         \pgfuseimage{scrumboard}
+         \bigskip
+       \end{center}
+}
+
+\pgfdeclareimage[width=0.82\textwidth]{scrumboard2}{../src/images/Scrumboard-physisch}
+\frame{
+   \frametitle{Scrum Board II}
+       \begin{center}
+         \pgfuseimage{scrumboard2}
+         \bigskip
+       \end{center}
+}
+
+
+\pgfdeclareimage[width=0.82\textwidth]{BurndownChart}{../src/images/Burn-down-chart}
+\frame{
+   \frametitle{Das Burndown Chart}
+       \begin{center}
+         \pgfuseimage{BurndownChart}
+         \bigskip
+       \end{center}
+}
+
+\frame
+{
+  \frametitle{Der Scrum Master}
+  \begin{itemize}
+      \item{Repräsentiert das Management gegenüber dem Projekt}
+      \item{Verantwortlich für die Einhaltung von Scrum-Werten und -Techniken}
+      \item{Beseitigt Hindernisse}
+      \item{Stellt sicher, dass das Team vollständig funktional und produktiv ist}
+      \item{Unterstützt die enge Zusammenarbeit zwischen allen Rollen und Funktionen}
+      \item{Schützt das Team vor äußeren Störungen}
+  \end{itemize}
+}
+
+\frame{
+   \frametitle{Der Scrum Zyklus}
+       \begin{center}
+         \pgfuseimage{scrum}
+         \bigskip
+       \end{center}
+}
+
+\frame
+{
+  \frametitle{Das Sprint Review Meeting}
+  \begin{itemize}
+      \item{Das Team präsentiert, was es während eines Sprints erreicht hat}
+      \item{Der PO gibt einen Ausblick auf den nächsten Sprint}
+      \item{Typischerweise in Form einer Demo der neuen Features oder der zugrunde liegenden Architektur}
+      \item{Zwei Stunden zur Vorbereitung}
+      \item{Keine Folien}
+      \item{Das ganze Team nimmt teil}
+      \item{Jeder ist eingeladen}
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Die Sprint Retrospektive}
+  \begin{itemize}
+      \item{Nach jedem Sprint}
+      \item{bei 3 Wochen Zyklus, ca. 2 Stunden}
+      \item{Das ganze Team nimmt teil: Scrummaster, Produktowner, Team}
+      \item{Regelgemäßer Rückblick auf Erfolge und Verbesserungsmöglichkeiten}
+      \item{Nutzung methodischer Ansätze
+          \begin{itemize}
+            \item{\href{http://plans-for-retrospectives.com}{Retormat}}
+            \item{\href{http://tastycupcakes.org/}{Tastycupcakes}}
+          \end{itemize}
+      }
+      \item{Identifizieren und Auswählen von Sprint-Team-Zielen}
+      \item{Nachhalten Sprint-Team-Zielen}
+  \end{itemize}
+}
+
+
+\subsection{Auswirkungen}
+\frame
+{
+  \frametitle{Was bringt Scrum dem Fachbereich?}
+  \begin{itemize}
+    \item{Verlässlichkeit - alle 3 Wochen ein Release}
+    \item{keine Change Request Diskussionen mehr}
+    \item{Bessere Ergebnisse durch Orientierung am Kunden und am Benutzer}
+    \item{Strukturierung in Epics und Stories vereinfacht die Priorisierung}
+    \item{Transparenz und kurzfristigere Steuerung} 
+    \item{Priorisierung des Backlogs nach Return On Investment und somit Businesswert}
+    \item{Kostenkontrolle: ,,Danke. Ich habe ausreichend Funktionalitäten erhalten.''}
+    \item{Productowner als Anlaufstelle für Fachlichkeit, die Technik und den Zeitplan}
+    \item{Produktentscheidungen zum Zeitpunkt der Relevanz}
+    \item{keine Produktentscheidungen ohne Informationen}
+  \end{itemize}
+}
+
+
+\frame
+{
+  \frametitle{Was bringt Scrum dem Entwicklungsteam?}
+  \begin{itemize}
+    \item{Das Team organisiert sich und seine Arbeit selbst}
+    \item{Enge fachliche Zusammenarbeit mit dem Product Owner}
+    \item{Konzentration und Fokussierung}
+    \item{Besser funktionierende Software durch iterative Vorgehensweise}
+    \item{Code wird wartbarer, Bewußtsein dass alles im Fluß ist}
+    \item{Bessere Softwarearchitektur - passende Lösungen}
+    \item{Anforderungen entwickeln sich sinnvoll und können mitgestaltet werden}
+    \item{Kontinuierliche Verbesserung: keine Ownership, Wissenstransfer, Retros, \dots}
+    \item{Einfachheit - die Kunst, die Menge nicht getaner Arbeit zu maximieren}
+    \item{Definition of Ready: Klare Kriterien für die Implementierungsfähigkeit einer Story}
+    \item{Definition of Done: Klare Kriterien für den Abschluß einer Aufgabe}
+  \end{itemize}
+}
+
+
+
+
