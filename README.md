@@ -7,6 +7,7 @@ Sie sind bewusst etwas textlastiger als nötig gehalten um die wichtigsten Inhal
 
 Verbessserungs-, Erweiterungsbeiträge nehme ich gerne an, Pull Requests sind sehr willkommen.
 
+Die Päsentation findet ihr [hier](vortrag-agile-methoden.pdf)
 
 Entwickeln
 ===========
