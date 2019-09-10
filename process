@@ -64,10 +64,10 @@ elif [ "$1" = "final" ]; then
     pdflatex ../src/vortrag.tex && echo "** first run finished" && \
     pdflatex ../src/vortrag.tex && echo "** second run finished" && \
     pdflatex ../src/vortrag.tex && echo "** third run finished" && \
-    cp vortrag.pdf ../vortrag.pdf
+    cp vortrag.pdf ../vortrag-agile-methoden.pdf
     getStats "$WATCHDIR"
-    if [ -f ../vortrag.pdf ];then
-      $PDF ../vortrag.pdf
+    if [ -f ../vortrag-agile-methoden.pdf ];then
+      $PDF ../vortrag-agile-methoden.pdf
     fi
 elif [ "$1" = "clean" ]; then
    echo "....cleaned"
