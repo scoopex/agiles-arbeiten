@@ -15,7 +15,7 @@ Entwickeln
  * Latex installieren
    ```
    apt-get install texlive-fonts-extra texlive-fonts-recommended texlive-base texlive-binaries texlive-extra-utils \
-    texlive-font-utils texlive-fonts-recommended texlive-fonts-recommended-doc texlive-generic-recommended \
+    texlive-font-utils texlive-fonts-recommended texlive-fonts-recommended-doc \
     texlive-lang-german texlive-latex-base texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc \
     texlive-pictures texlive-pictures-doc texlive-pstricks texlive-pstricks-doc texlive-latex-extra
    ```
